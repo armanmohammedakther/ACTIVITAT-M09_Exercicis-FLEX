@@ -1,0 +1,142 @@
+span {
+   background-color: rgba(255, 255, 255, .5);
+   border-radius: 50%;
+   display: block;
+   font-size: 1.5em;
+   line-height: 3em;
+   text-align: center;
+   width: 3em;
+}
+
+/*
+
+Ex 1. Mostrar els ítems en horitzontal
+
+.div {
+   display: flex;
+   flex-direction: column;
+   background-color: antiquewhite;
+}
+
+Ex2. Mostrar els ítems en vertical
+
+.div {
+   display: flex;
+}
+.container {
+   display: flex;
+   flex-direction: row;
+}
+
+Ex3. Mostrar els ítems en vertical quan el contenidor té una altura de 200px
+
+.container {
+   display: flex;
+   flex-direction: row;
+}
+
+div {
+   height: 200px;
+}
+
+Ex4. Mostrar 4 ítems per fila, establint l'amplada dels ítems
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div {
+   height: 370px;
+   width: 370px;
+}
+
+Ex5. Afegir marges entre els div i centrar continguts
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div {
+   margin: 10px;
+   height: 350px; 
+   width: 350px;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+
+Ex6. Modificar mides. Que l'ítem 5 ocupi tota l'amplada
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div {
+   margin: 10px;
+   height: 350px; 
+   width: 350px;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   flex-grow: 2;
+}
+
+.amplada100 {
+   width: 100%;
+}
+
+
+Ex7. Centrar continguts. Provar amb 2 ítems. Afegir-ne més per veure el comportament.
+
+section{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+}
+
+div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   height: 200px;
+   margin: 4px;
+}
+
+Ex8. Canviar orientació i mida
+
+*/
+
+section {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: 100vh;
+   width: 500px;
+   gap: 10px 10px;
+}
+
+
+div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: flex-start;
+   width: 490px;
+   height: 179px;
+   margin: 0;
+}
+
+.altura100 {
+   height: 100%;
+}
+

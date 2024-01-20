@@ -1,0 +1,35 @@
+/*
+Ex 2.1. Cada text ha de ser un enllaç
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 20%;
+    line-height: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+Ex 2.2. Menú que tingui la mateixa amplada per cada element.
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
